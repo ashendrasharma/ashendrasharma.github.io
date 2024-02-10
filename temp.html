@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Ashendra Sharma"> Ashendra Sharma</h1>
+
+          
+          <p></p>
+
+          <p class="title">     AI - Data Science Enthusiast   </p>
+        </div>
+      
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:karanwalia2k3@gmail.com" class="contact-link">ashendra02@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+917708293783" class="contact-link">+91 9424710030</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2003-10-27">June 02, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Gwalior, India</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+
+
+
+
+
+
+      <!--
+        - HAVE TO CHANGE LINKS
+      -->
+
+
+
+
+
+      
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/ashendra-sharma-68467219a/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/ashendrasharma" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/__ashendra__/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Projects</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Certifications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            As an enthusiastic programmer with a deep passion for Deep Learning and Machine Learning, I've honed my skills through impactful projects, internships, and published research papers. Actively engaging with evolving topics in AI-ML and Data Science, I strive for continuous learning. My expertise extends to the intersection of quantitative analysis and machine learning in finance, showcasing a versatile skill set. Committed to innovation, I aim to make lasting contributions to these dynamic fields.
+          </p>
+
+          
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/ai.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Research</h4>
+
+                <p class="service-item-text">
+                  Frequently take part in ongoing research in several fields of Machine Learning:  Time Series Modelling, Statistical Modelling, Quantitative Finance, Quantitative Analytics, Generative AI, Automation and Deep learning.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Projects</h4>
+
+                <p class="service-item-text">
+                  Engaged in a consistent and impactful journey, actively contributing to AI & ML projects and internships. You can explore the Projects section for a comprehensive overview of my hands-on experiences and achievements in Quantitative Finance and Machine Learning.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Open Source</h4>
+
+                <p class="service-item-text">
+                  Active in open-source initiatives, I've crafted solutions for competitions and student hackathons, promoting collaboration within open-source communities.
+                </p>
+              </div>
+
+            </li>
+            
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/db.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Trading</h4>
+
+                <p class="service-item-text">
+                  Fueled by a fervor for trading, I've navigated diverse markets, honing strategies and insights. Each trade is not just a transaction but a step in a thrilling journey that drives my unwavering passion.
+                </p>
+              </div>
+
+            </li>
+          
+
+          </ul>
+
+        </section>
+
+
+        
+          
+        
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Referances</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="assets\images\images.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mr. Akshat Chitnis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                     IoT Engineer,  <br>XYMA Analytics, Chennai
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            
+
+            
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/images.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mr. Aryan Yadav</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Assistant Manager,  <br>Volvo eicher, Indore.
+
+                  </p>
+                </div>
+
+              </div>
+            </li>
+<!--
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/hz.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Prof. Hamim Zafar</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Dept of Computer Science,  <br> 
+                    Indian Institute of Technology Kanpur, India
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/clar.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title> Mr. Clarence Lai</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Country Manager Singapore Education Services,  <br> Hewlett Packard Enterprise, Singapore
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/yy.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title> Mrs. Yingying Kang</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Director of AI & Data Science,  <br> Assurant, Georgia, USA
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            
+
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/pv.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title> Dr. Pavithra LK</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Assistant Professor, Computer Science   <br> Vellore Institute of Technology, India
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/mi.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title> Dr. Masood Ikram</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Managing Director MellonAI  <br> Chennai, India
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ava.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title> Dr. Hemalatha</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Computer Science teacher at Highschool  <br> DAV Boys Gopalapuram, Chennai
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/ava.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title> Dr. Jayashree M</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mathematics teacher at Highschool <br> DAV Boys Gopalapuram, Chennai
+                  </p>
+                </div>
+
+              </div>
+            </li>
+            -->
+          </ul>
+
+        </section>
+
+
+
+        <div class="modal-container" data-modal-container>
+
+            <div class="overlay" data-overlay></div>
+  
+            <section class="testimonials-modal">
+  
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+  
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                </figure>
+  
+                <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              </div>
+  
+              <div class="modal-content">
+  
+                <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+  
+                <time datetime="2021-06-14">14 June, 2021</time>
+  
+                <div data-modal-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
+                </div>
+  
+              </div>
+  
+            </section>
+  
+          </div>
+        
+        <!--
+          - clients
+        -->
+<!--
+        <section class="clients">
+              <h4 class="h4 service-item-title">Affiliations and Organizations I have worked with </h4>
+              <ul class="clients-list has-scrollbar">
+    
+                    <img src="./assets/images/50-506039_iit-bombay-logo-png.png" alt="client logo">
+                    <img src="./assets/images/Google_Cloud_Platform-Logo.wine.png" alt="client logo">
+                    
+                    <img src="./assets/images/0k_ofm4K_400x400.jpg" alt="client logo">
+                    <img src="assets\images\purepng.com-ibm-logologobrand-logoiconslogos-251519939176ka7y8.png" alt="client logo">
+      
+                    <img src="./assets/images/image.jpg.png" alt="client logo">
+                    
+                    <img src="./assets/images/1644751331509.jpeg" alt="client logo">
+                
+                    <img src="./assets/images/5.jpg" alt="client logo">
+             
+                    <img src="./assets/images/2.jpg" alt="client logo">
+                  
+                    <img src="./assets/images/1.jpg" alt="client logo">
+
+          </ul>
+
+        </section>
+        
+      -->
+      </article>
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5"> Machine Learning & Deep Learning</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Quantitative Analytics</h5>
+                <data value="42">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+              
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python/C C++/HTML</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Research work</h5>
+                <data value="75">75%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+              
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Time Series Modelling & Finance Modelling</h5>
+                <data value="85">87%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web Dev</h5>
+                <data value="40">40%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Management</h5>
+                <data value="85">85%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 65%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Marketing</h5>
+                <data value="60">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 60%;"></div>
+              </div>
+              
+
+            </li>
+
+            
+
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="projects">
+
+        <header> </header>
+        <header>
+          <h2 class="h2 article-title"></h2>
+          <h2 class="h2 article-title">Projects & Research</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning & Deep Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Open Source</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Research</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning & Deep Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Open Source</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item><id="test">Research</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="https://drive.google.com/file/d/1NxbZB5TIDnT3DjQgiJ3fFrhkh7ODAK5w/view?usp=share_link">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/nick-chong-N__BnvQ_w18-unsplash.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stock Forecasting Using LSTM-ARIMA Hybrid Model</h3>
+
+                <p class="project-category">Research Paper</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/tr.png"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">A Deep Learning Approach towards Detecting and
+                  Quantifying Marine Debris</h3>
+
+                <p class="project-category">Research Paper</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="research">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\arr2.jpg"  loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrythmia detection & Classification using Deep Learning</h3>
+
+                <p class="project-category">Research Paper</p>
+
+              </a>
+            </li>
+           
+            <li class="project-item  active" data-filter-item data-category="machine learning & deep learning">
+              <a href="https://github.com/ashendrasharma/Stock-Price-Prediction-Using-LSTM">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\austin-distel-DfjJMVhwH_8-unsplash.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Stock Price Prediction Using LSTM</h3>
+
+                <p class="project-category">Machine Learning & Deep Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning & deep learning">
+              <a href="https://github.com/ashendrasharma/Botanical_Iris_Classification-">
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\british-library-MS0JT4RC9Ls-unsplash.jpg" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Botanical Iris Classification</h3>
+
+                <p class="project-category"> Machine Learning</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning & deep learning">
+              <a href="https://github.com/ashendrasharma/Customer-Segmentation---Using-k-means">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="assets\images\1*y-YeqS_WLKjuR2Il0RPNsQ.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Customer Segmentation Using k-means</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+<!--
+            <li class="project-item  active" data-filter-item data-category="machine learning & deep learning">
+              <a href="https://github.com/karanwxliaa/Underwater-Trash-Detection">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/myriam-jessier-eveI7MOcSmw-unsplash.jpg" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Underwater Trash Identification</h3>
+
+                <p class="project-category">Deep Learning - Computer Vision</p>
+
+              </a>
+            </li>
+            <li class="project-item  active" data-filter-item data-category="machine learning & deep learning">
+              <a href="https://github.com/karanwxliaa/Arrythmia-Detection-using-ECG">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/arr.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrythmia classification using ECG</h3>
+
+                <p class="project-category">Deep Learning - ECG / Medical data</p>
+
+              </a>
+            </li>
+            
+
+             
+            
+            <li class="project-item  active" data-filter-item data-category="open source">
+              <a href="https://github.com/karanwxliaa/StudentDesk">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">STUDESK</h3>
+
+                <p class="project-category">Open Source Webapp</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="open source">
+              <a href="https://github.com/karanwxliaa/Elderio">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">ELDERIO</h3>
+
+                <p class="project-category">Open Source Application</p>
+
+              </a>
+            </li>
+          -->
+          </ul>
+
+        </section>
+
+      </article>
+
+      
+
+
+
+      <!--
+        - #Certifications
+      -->
+
+      <article class="blog" data-page="certifications">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+
+            <li class="blog-post-item">
+              <a href="https://drive.google.com/file/d/176WhdNatw4d0MAzn4SyLH_xFc4dKF_sY/view?usp=share_link">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/0k_ofm4K_400x400.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Madhav Institute of Technology & Science</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">July, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Research Intern</h3>
+
+                  <p class="blog-text">
+                    Under the Guidance of Dr. Dhananjay Bisen, Professor, IT, MITS.
+                  </p>
+
+                </div>
+
+              </a>
+              <li class="blog-post-item">
+                <a href="https://drive.google.com/file/d/1u73VEGa73wjMB_-kD0wozJwMwik_ZEUM/view?usp=share_link">
+  
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/head-logo.png" alt="Design conferences in 2022" loading="lazy">
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <div class="blog-meta">
+                      <p class="blog-category">Indian Institute of Technology Ropar</p>
+  
+                      <span class="dot"></span>
+  
+                      <time datetime="2022-02-23">Oct, 2023</time>
+                    </div>
+  
+                    <h3 class="h3 blog-item-title">Deep Learning </h3>
+  
+                    <p class="blog-text">
+                      By Prof. Sudarshan Iyengar, Prof. Padmavati 
+                    </p>
+  
+                  </div>
+  
+                </a>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/0k_ofm4K_400x400.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Madhav Institute of Technology & Science</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">October, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Research trainee (Medical applications)</h3>
+
+                  <p class="blog-text">
+                    Under the Guidance of Dr. Arun Kumar Wadhwani, Professor, EED, MITS
+                  </p>
+
+                </div>
+
+              </a>
+
+              
+            <li class="blog-post-item">
+              <a href="https://coursera.org/share/8cbe37facbb383a6b524719e2c9287c5">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/50-506039_iit-bombay-logo-png.png.jpeg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">IIT BOMBAY</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">June, 2023</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Basic course on Internet of Things - LEVEL 2</h3>
+
+                  <p class="blog-text">
+                    TIH Foundation for IoT & IoE
+                  </p>
+
+                </div>
+
+              </a>
+              
+              <li class="blog-post-item">
+                <a href="https://coursera.org/share/a07872eeed96d5d98eb2fcc0ee8c144d">
+  
+                  <figure class="blog-banner-box">
+                    <img src="./assets/images/Google_Cloud_Platform-Logo.wine.png" alt="Design conferences in 2022" loading="lazy">
+                  </figure>
+  
+                  <div class="blog-content">
+  
+                    <div class="blog-meta">
+                      <p class="blog-category">Google Cloud</p>
+  
+                      <span class="dot"></span>
+  
+                      <time datetime="2022-02-23">August, 2023</time>
+                    </div>
+  
+                    <h3 class="h3 blog-item-title">Quantitative Finance</h3>
+  
+                    <p class="blog-text">
+                      Introduction to Trading, Machine Learning & GCP
+                    </p>
+  
+                  </div>
+  
+                </a>
+
+                <li class="blog-post-item">
+                  <a href="https://coursera.org/share/e6bcdbc0d778a03453e6f8c0663a0e6b">
+    
+                    <figure class="blog-banner-box">
+                      <img src="./assets/images/purepng.com-ibm-logologobrand-logoiconslogos-251519939176ka7y8.png" alt="Design conferences in 2022" loading="lazy">
+                    </figure>
+    
+                    <div class="blog-content">
+    
+                      <div class="blog-meta">
+                        <p class="blog-category">IBM</p>
+    
+                        <span class="dot"></span>
+    
+                        <time datetime="2022-02-23">June, 2023</time>
+                      </div>
+    
+                      <h3 class="h3 blog-item-title">Machine Learning with Python</h3>
+    
+                      <p class="blog-text">
+                        Grade Achieved: 82%
+                      </p>
+    
+                    </div>
+    
+                  </a>
+
+                  <li class="blog-post-item">
+                    <a href="https://coursera.org/share/5cc153c651aba591b09513d415b0c10d">
+      
+                      <figure class="blog-banner-box">
+                        <img src="./assets/images/purepng.com-ibm-logologobrand-logoiconslogos-251519939176ka7y8.png" alt="Design conferences in 2022" loading="lazy">
+                      </figure>
+      
+                      <div class="blog-content">
+      
+                        <div class="blog-meta">
+                          <p class="blog-category">IBM</p>
+      
+                          <span class="dot"></span>
+      
+                          <time datetime="2022-02-23">June, 2023</time>
+                        </div>
+      
+                        <h3 class="h3 blog-item-title">Data Analysis with Python</h3>
+      
+                        <p class="blog-text">
+                          Grade Achieved: 87%
+                        </p>
+      
+                      </div>
+      
+                    </a>
+
+                    <li class="blog-post-item">
+                      <a href="https://coursera.org/share/2e76042f230cc3699e7b28dfe582085f">
+        
+                        <figure class="blog-banner-box">
+                          <img src="./assets/images/purepng.com-ibm-logologobrand-logoiconslogos-251519939176ka7y8.png" alt="Design conferences in 2022" loading="lazy">
+                        </figure>
+        
+                        <div class="blog-content">
+        
+                          <div class="blog-meta">
+                            <p class="blog-category">IBM</p>
+        
+                            <span class="dot"></span>
+        
+                            <time datetime="2022-02-23">May, 2023</time>
+                          </div>
+        
+                          <h3 class="h3 blog-item-title">Python for Data Science, AI & Development</h3>
+        
+                          <p class="blog-text">
+                            Fundamentals of Python(Grade Achieved: 81.86%).
+                          </p>
+        
+                        </div>
+        
+                      </a>
+                      
+
+
+              <!-- 
+
+                TO ADD MORE CERTIFICATIONS
+
+                <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Calculus/Mathematics/ML</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">August, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Mathematics for Machine Learning</h3>
+
+                  <p class="blog-text">
+                    Multivariate Calculus
+                  </p>
+
+                </div>
+
+              </a>
+
+              --> 
+
+              
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <div class="mapouter">
+              <div class="gmap_canvas">
+                <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=1000&amp;height=400&amp;hl=en&amp;q=chennai&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+
+                </iframe>
+                <a href="">Piratebay</a>
+              </div><style>.mapouter{position:relative;text-align:right;width:1000px;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:1000px;height:400px;}.gmap_iframe {width:1000px!important;height:400px!important;}</style></div>
+
+
+              
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
